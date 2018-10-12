@@ -6,7 +6,7 @@ import pyproj
 from shapely.geometry import shape
 from shapely.ops import transform
 
-S3_PATH = 's3://glr-us-ds-building-footprints'
+S3_PATH = 's3://glr-ds-us-building-footprints'
 
 def get_buildings(plot_shp, county_fips):
     src_path = os.path.join(S3_PATH, f'{county_fips}.shp')
