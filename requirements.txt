@@ -1,0 +1,3 @@
+Fiona==1.8a2
+pyproj==1.9.5.1
+Shapely==1.6.4.post1
